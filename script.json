@@ -71,7 +71,7 @@
       "Wrong"
     ],
     "setup": true,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.) [-1 to +1 Outsiders]",
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.) [-1 / +1 Outsiders]",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [],
@@ -302,7 +302,7 @@
   {
     "id": "butler_trouble brewing",
     "edition": "tb",
-    "name": "Butler",
+    "name": "Qutler",
     "firstNightReminder": "The Butler chooses a player. ",
     "otherNightReminder": "The Butler chooses a player. ",
     "team": "outsider",
@@ -356,11 +356,11 @@
   {
     "id": "mayor_trouble brewing",
     "edition": "tb",
-    "name": "Mayor",
+    "name": "Mayor?",
     "team": "outsider",
     "reminders": [],
     "setup": false,
-    "ability": "If you die at night, another player might die instead.",
+    "ability": "If you die, another player might die instead.",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [],
@@ -520,7 +520,7 @@
       "Last"
     ],
     "setup": false,
-    "ability": "Each night, choose a player: the previously chosen player dies. If you kill yourself this way, a Minion becomes the Imp.",
+    "ability": "Each night, choose a player: the previously chosen player dies. If you kill yourself this way, a Minion becomes the Imp?.",
     "jinxes": [],
     "remindersGlobal": [],
     "special": [],
