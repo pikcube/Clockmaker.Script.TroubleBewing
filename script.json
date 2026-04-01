@@ -3,6 +3,7 @@
     "id": "_meta",
     "name": "Trouble Bewing",
     "author": "TPI?",
+    "background": "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/script/background.png",
     "firstNight": [
       "dusk",
       "minioninfo",
