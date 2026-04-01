@@ -1,0 +1,533 @@
+[
+  {
+    "id": "_meta",
+    "name": "Trouble Bewing",
+    "author": "TPI?",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "poisoner_trouble brewing",
+      "spy_trouble brewing",
+      "imp_trouble brewing",
+      "washerwoman_trouble brewing",
+      "librarian_trouble brewing",
+      "investigator_trouble brewing",
+      "chef_trouble brewing",
+      "empath_trouble brewing",
+      "fortuneteller_trouble brewing",
+      "butler_trouble brewing",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "scarletwoman_trouble brewing",
+      "poisoner_trouble brewing",
+      "monk_trouble brewing",
+      "spy_trouble brewing",
+      "imp_trouble brewing",
+      "ravenkeeper_trouble brewing",
+      "undertaker_trouble brewing",
+      "empath_trouble brewing",
+      "fortuneteller_trouble brewing",
+      "butler_trouble brewing",
+      "dawn"
+    ]
+  },
+  {
+    "id": "washerwoman_trouble brewing",
+    "edition": "tb",
+    "name": "Washerwoman?",
+    "firstNightReminder": "Show the Townsfolk character token. Point to both the *TOWNSFOLK* and *WRONG* players.",
+    "team": "townsfolk",
+    "reminders": [
+      "Townsfolk",
+      "Wrong"
+    ],
+    "setup": true,
+    "ability": "You start knowing that a player is a Washerwoman [+0 to +1 Washerwoman]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/washerwoman_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/washerwoman_trouble%20brewing/1.png"
+    ],
+    "flavor": "Bloodstains on a dinner jacket? No, this is cooking sherry. How careless."
+  },
+  {
+    "id": "librarian_trouble brewing",
+    "edition": "tb",
+    "name": "Librarian?",
+    "firstNightReminder": "Show the Outsider character token. Point to both the *OUTSIDER* and *WRONG* players.",
+    "team": "townsfolk",
+    "reminders": [
+      "Outsider",
+      "Wrong"
+    ],
+    "setup": true,
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.) [-1 to +1 Outsiders]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/librarian_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/librarian_trouble%20brewing/1.png"
+    ],
+    "flavor": "Certainly madam, under normal circumstances, you may borrow the Codex Malificarium from the library vaults. However, you do not seem to be a member."
+  },
+  {
+    "id": "investigator_trouble brewing",
+    "edition": "tb",
+    "name": "Investigator?",
+    "firstNightReminder": "Show the Minion character token. Point to both the *MINION* and *WRONG* players.",
+    "team": "townsfolk",
+    "reminders": [
+      "Minion",
+      "Wrong"
+    ],
+    "setup": false,
+    "ability": "You start knowing that 1 of 2 players is a particular Minion. They may change characters when you die.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/investigator_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/investigator_trouble%20brewing/1.png"
+    ],
+    "flavor": "It is a fine night for a stroll, wouldn't you say, Mister Morozov? Or should I say... BARON Morozov?"
+  },
+  {
+    "id": "chef_trouble brewing",
+    "edition": "tb",
+    "name": "Chef?",
+    "firstNightReminder": "Give a finger signal.",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "You start knowing how many pairs of good players there are.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/chef_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/chef_trouble%20brewing/1.png"
+    ],
+    "flavor": "This evening's reservations seem odd. Never before has Mrs. Mayweather kept company with that scamp from Hudson Lane. Yet, tonight, they have a table for two. Strange."
+  },
+  {
+    "id": "empath_trouble brewing",
+    "edition": "tb",
+    "name": "Empath?",
+    "firstNightReminder": "Give a finger signal.",
+    "otherNightReminder": "Give a finger signal.",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you learn how many of your 2 alive neighbors are evil. Once per game, the storyteller might tell you the number 3 instead.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/empath_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/empath_trouble%20brewing/1.png"
+    ],
+    "flavor": "My skin prickles. Something is not right here. I can feel it."
+  },
+  {
+    "id": "fortuneteller_trouble brewing",
+    "edition": "tb",
+    "name": "Fortune Teller?",
+    "firstNightReminder": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the *RED HERRING*).",
+    "otherNightReminder": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the *RED HERRING*).",
+    "team": "townsfolk",
+    "reminders": [
+      "Red Herring"
+    ],
+    "setup": false,
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. Once per game, there may be a good player that registers as a Demon to you.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/fortuneteller_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/fortuneteller_trouble%20brewing/1.png"
+    ],
+    "flavor": "I sense great evil in your soul! But... that could just be your perfume. I am allergic to Elderberry."
+  },
+  {
+    "id": "undertaker_trouble brewing",
+    "edition": "tb",
+    "name": "Undertaker?",
+    "otherNightReminder": "If a player was executed today, show their character token.",
+    "team": "townsfolk",
+    "reminders": [
+      "Died Today"
+    ],
+    "setup": false,
+    "ability": "Each night*, you learn a good and evil character, one of which died by execution today.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/undertaker_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/undertaker_trouble%20brewing/1.png"
+    ],
+    "flavor": "Hmmm....what have we here? The left boot is worn down to the heel, with flint shavings under the tongue. This is the garb of a Military man."
+  },
+  {
+    "id": "monk_trouble brewing",
+    "edition": "tb",
+    "name": "Monk?",
+    "otherNightReminder": "The Monk chooses a player. ",
+    "team": "townsfolk",
+    "reminders": [
+      "Safe"
+    ],
+    "setup": false,
+    "ability": "Each night*, choose a player (not yourself): if they would die tonight, you learn this and lose your ability.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/monk_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/monk_trouble%20brewing/1.png"
+    ],
+    "flavor": "'Tis an ill and deathly wind that blows tonight. Come, my brother, take shelter in the abbey while the storm rages. By my word, or by my life, you will be safe."
+  },
+  {
+    "id": "slayer_trouble brewing",
+    "edition": "tb",
+    "name": "Slayer?",
+    "team": "townsfolk",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "Once per game, during the day, publicly choose a player: they die.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/slayer_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/slayer_trouble%20brewing/1.png"
+    ],
+    "flavor": "Die."
+  },
+  {
+    "id": "soldier_trouble brewing",
+    "edition": "tb",
+    "name": "Soldier?",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "You are safe from the Demon. Other players will think you are the demon no matter how confirmed you are.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/soldier_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/soldier_trouble%20brewing/1.png"
+    ],
+    "flavor": "As David said to Goliath, as Theseus said to the Minotaur, as Arjuna said to Bhagadatta... No."
+  },
+  {
+    "id": "recluse_trouble brewing",
+    "edition": "tb",
+    "name": "Recluse?",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+    "jinxes": [
+      {
+        "id": "ogre",
+        "reason": "If the Recluse registers as evil to the Ogre, the Ogre learns that they are evil."
+      },
+      {
+        "id": "sage",
+        "reason": "The Recluse might register as the Demon to the Sage."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/recluse_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/recluse_trouble%20brewing/1.png"
+    ],
+    "flavor": "Garn git ya darn grub ya mitts ofma lorn yasee. Grr. Natsy pikkins yonder southwise ye begittin afta ya! Git! Me harvy no so widda licks and demmons no be fightin' hadsup ne'er ma kin. Git, assay!"
+  },
+  {
+    "id": "ravenkeeper_trouble brewing",
+    "edition": "tb",
+    "name": "Ravenkeeper?",
+    "otherNightReminder": "If the Ravenkeeper died tonight, the Ravenkeeper chooses a player. Show that player's character token.",
+    "team": "townsfolk",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die at night, a good player becomes the Ravenkeeper?.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/ravenkeeper_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/ravenkeeper_trouble%20brewing/1.png"
+    ],
+    "flavor": "My birds will avenge me! Fly! Fly, my sweet and dutiful pets! To the manor and to the river! To the alleys and to the salons! Fly!"
+  },
+  {
+    "id": "virgin_trouble brewing",
+    "edition": "tb",
+    "name": "Virgin?",
+    "team": "townsfolk",
+    "reminders": [
+      "No Ability"
+    ],
+    "setup": false,
+    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, you are both executed immediately.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/virgin_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/virgin_trouble%20brewing/1.png"
+    ],
+    "flavor": "I am pure. Let those who are without sin cast themselves down and suffer in my stead. My reputation shall not be stained with your venomous accusations."
+  },
+  {
+    "id": "butler_trouble brewing",
+    "edition": "tb",
+    "name": "Butler",
+    "firstNightReminder": "The Butler chooses a player. ",
+    "otherNightReminder": "The Butler chooses a player. ",
+    "team": "outsider",
+    "reminders": [
+      "Master"
+    ],
+    "setup": true,
+    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too. [The storyteller thinks you are cool]",
+    "jinxes": [
+      {
+        "id": "organgrinder",
+        "reason": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/butler_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/butler_trouble%20brewing/1.png"
+    ],
+    "flavor": "Yes, sir... No, sir... Certainly, sir."
+  },
+  {
+    "id": "drunk_trouble brewing",
+    "edition": "tb",
+    "name": "Drunk?",
+    "team": "outsider",
+    "reminders": [],
+    "setup": true,
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not. You might be evil and neighbor the demon [-1 Minion if you are evil]",
+    "jinxes": [],
+    "remindersGlobal": [
+      "Is The Drunk"
+    ],
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "reveal",
+        "name": "replace-character"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/drunk_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/drunk_trouble%20brewing/1.png"
+    ],
+    "flavor": "I'm only a *hic* social drinker, my dear. Admittedly, I am a heavy *burp* socializer."
+  },
+  {
+    "id": "mayor_trouble brewing",
+    "edition": "tb",
+    "name": "Mayor",
+    "team": "outsider",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die at night, another player might die instead.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/mayor_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/mayor_trouble%20brewing/1.png"
+    ],
+    "flavor": "We must put our differences aside, and cease this senseless killing. We are all taxpayers after all. Well, most of us."
+  },
+  {
+    "id": "saint_trouble brewing",
+    "edition": "tb",
+    "name": "Saint?",
+    "team": "outsider",
+    "reminders": [],
+    "setup": false,
+    "ability": "If you die during the day, your team loses.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/saint_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/saint_trouble%20brewing/1.png"
+    ],
+    "flavor": "Wisdom begets peace. Patience begets wisdom. Fear not, for the time shall come when fear too shall pass. Let us pray, and may the unity of our vision make saints of us all."
+  },
+  {
+    "id": "poisoner_trouble brewing",
+    "edition": "tb",
+    "name": "Poisoner?",
+    "firstNightReminder": "The Poisoner chooses two players. ",
+    "otherNightReminder": "The Poisoner chooses two players. ",
+    "team": "minion",
+    "reminders": [
+      "Poisoned",
+      "False"
+    ],
+    "setup": false,
+    "ability": "Each night, choose two players: one of them is poisoned tonight and tomorrow day, the other learns false information.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/poisoner_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/poisoner_trouble%20brewing/1.png"
+    ],
+    "flavor": "Add compound Alpha to compound Beta... NOT TOO MUCH!"
+  },
+  {
+    "id": "spy_trouble brewing",
+    "edition": "tb",
+    "name": "Spy?",
+    "firstNightReminder": "Show the Grimoire for as long as the Spy needs.",
+    "otherNightReminder": "Show the Grimoire for as long as the Spy needs.",
+    "team": "minion",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead. You may choose to open your eyes at night.",
+    "jinxes": [
+      {
+        "id": "damsel",
+        "reason": "If the Spy is (or has been) in play, the Damsel is poisoned."
+      },
+      {
+        "id": "ogre",
+        "reason": "The Spy registers as evil to the Ogre."
+      },
+      {
+        "id": "poppygrower",
+        "reason": "If the Poppy Grower has their ability, the Spy does not see the Grimoire."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [
+      {
+        "type": "player",
+        "name": "open-eyes",
+        "time": "pregame"
+      },
+      {
+        "type": "player",
+        "name": "open-eyes",
+        "time": "day"
+      },
+      {
+        "type": "player",
+        "name": "open-eyes",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      }
+    ],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/spy_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/spy_trouble%20brewing/1.png"
+    ],
+    "flavor": "Any brewmaster worth their liquor, knows no concoction pours trouble quicker, than one where spies seem double."
+  },
+  {
+    "id": "scarletwoman_trouble brewing",
+    "edition": "tb",
+    "name": "Scarlet Woman?",
+    "otherNightReminder": "If the Scarlet Woman became the Demon today, show them the *YOU ARE* token, then the Demon token.",
+    "team": "minion",
+    "reminders": [
+      "Is The Demon"
+    ],
+    "setup": false,
+    "ability": "If there are 5 or more players alive & the Demon dies during the day, you become the Demon. (Travellers don't count.)",
+    "jinxes": [
+      {
+        "id": "alhadikhia",
+        "reason": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman becomes the Scarlet Woman again."
+      },
+      {
+        "id": "fanggu",
+        "reason": "If there would be two Demons, one of which was the Scarlet Woman, the Scarlet Woman remains the Scarlet Woman."
+      }
+    ],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/scarletwoman_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/scarletwoman_trouble%20brewing/1.png"
+    ],
+    "flavor": "You have shown me the secrets of the Council of the Purple Flame. We have lain together in fire and in lust and in beastly commune, and I am forever your servant. But tonight, my dear, I am your master."
+  },
+  {
+    "id": "baron_trouble brewing",
+    "edition": "tb",
+    "name": "Baron?",
+    "team": "minion",
+    "reminders": [],
+    "setup": true,
+    "ability": "There are extra Outsiders in play. [+1 to +2 Outsiders]",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/baron_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/baron_trouble%20brewing/1.png"
+    ],
+    "flavor": "This town has gone to the dogs, what? Cheap foreign labor... that's the ticket. Stuff them in the mine, I say. A bit of hard work never hurt anyone, and a clip'o'the ears to any brigand who says otherwise. It's all about the bottom line, what?"
+  },
+  {
+    "id": "imp_trouble brewing",
+    "edition": "tb",
+    "name": "Imp?",
+    "firstNightReminder": "The Imp chooses a player.",
+    "otherNightReminder": "The Imp chooses a player.  If the Imp chose themselves last night: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the *YOU ARE* token, then show the Imp token.",
+    "team": "demon",
+    "reminders": [
+      "Dead",
+      "Last"
+    ],
+    "setup": false,
+    "ability": "Each night, choose a player: the previously chosen player dies. If you kill yourself this way, a Minion becomes the Imp.",
+    "jinxes": [],
+    "remindersGlobal": [],
+    "special": [],
+    "image": [
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/imp_trouble%20brewing/0.png",
+      "https://raw.githubusercontent.com/pikcube/Clockmaker.Script.TroubleBewing/main/token/imp_trouble%20brewing/1.png"
+    ],
+    "flavor": "We must keep our wits sharp and our sword sharper. Evil walks among us, and will stop at nothing to destroy us good, simple folk, bringing our fine town to ruin. Trust no-one. But, if you must trust someone, trust me."
+  }
+]
